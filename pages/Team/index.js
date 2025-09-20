@@ -1,6 +1,9 @@
 import React from 'react'
+import Navbar from '../navbar'
 const Team = () => {
   return (
+    <div>
+      <Navbar />
 <section class="text-gray-400 bg-gray-900 body-font">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-col text-center w-full mb-20">
@@ -119,6 +122,7 @@ const Team = () => {
     </div>
   </div>
 </section>
+</div>
   )
 }
 
