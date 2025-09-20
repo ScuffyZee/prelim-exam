@@ -1,12 +1,11 @@
 import Hero from "./Hero"
-import Navbar from "./navbar";
-import Footer from "./footer";
+
 import Image from "next/image";
 
 export default function Home() {
   return (
     <div>
-      <Navbar />
+      
       <Hero />
       <section class="text-gray-400 bg-gray-900 body-font">
   <div class="container px-5 py-24 mx-auto flex flex-wrap">
@@ -40,7 +39,7 @@ export default function Home() {
     </div>
   </div>
 </section>
-      <Footer />
+      
     </div>
     
   );
