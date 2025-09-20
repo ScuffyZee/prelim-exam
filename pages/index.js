@@ -7,6 +7,8 @@ export default function Home() {
     <div>
       
       <Hero />
+      
+    <div id="section2">
       <section class="text-gray-400 bg-gray-900 body-font">
   <div class="container px-5 py-24 mx-auto flex flex-wrap">
     <div class="flex w-full mb-20 flex-wrap">
@@ -39,7 +41,7 @@ export default function Home() {
     </div>
   </div>
 </section>
-      
+      </div>
     </div>
     
   );
